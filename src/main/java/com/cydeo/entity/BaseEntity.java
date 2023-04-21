@@ -2,6 +2,7 @@ package com.cydeo.entity;
 
 import lombok.*;
 
+
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
@@ -10,6 +11,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @MappedSuperclass
+@EntityListeners(BaseEntityListener.class)
 public class BaseEntity {
 
     @Id
