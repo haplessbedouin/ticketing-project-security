@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="ticketingdb@ticketingdb.cpdoeik9bjes.us-east-2.rds.amazonaws.com" uuid="6a9ec6b3-dd54-4e3c-abbb-e9b552b26e20">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ticketingdb.cpdoeik9bjes.us-east-2.rds.amazonaws.com/ticketingdb</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
